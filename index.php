@@ -10,6 +10,8 @@
 </head>
 <body>
 
+
+
     <div class="container mt-5 pt-5">
         <form action="/dashbord" method="post">
             <div class="form-row">
@@ -23,11 +25,11 @@
                 </div>
                 <div class="form-group col-md-4">
                     <label for="input_email">Email</label>
-                    <input type="text" class="form-control" name="email" id="input_email" placeholder="Votre email" required>
+                    <input type="email" class="form-control" name="email" id="input_email" placeholder="Votre email" required>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="input_telephone">Telephone</label>
-                    <input type="text" class="form-control" name="phone" id="input_telephone" placeholder="Votre telephone" required>
+                    <input type="tel" class="form-control" name="phone" id="input_telephone" placeholder="Votre telephone" required>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="input_naissance">Date</label>
